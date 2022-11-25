@@ -4,12 +4,14 @@
     "dir": "ltr",
     "display": "standalone",
     "name": "Demo PWA JEW",
-    "orientation": "any",
+    "orientation": "portrait",
     "scope": "/",
     "short_name": "Demo PWA JEW",
     "start_url": "https://jewelry-app-react.herokuapp.com/",
     "theme_color": "#000000",
-    "categories": [],
+    "categories": [
+        "lifestyle"
+    ],
     "screenshots": [
         {
             "src": "screenshot.jpg",
