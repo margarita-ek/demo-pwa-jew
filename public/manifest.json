@@ -1,0 +1,38 @@
+{
+    "background_color": "#ffffff",
+    "description": "Web site created using create-react-app",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Demo PWA JEW",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Demo PWA JEW",
+    "start_url": "https://jewelry-app-react.herokuapp.com/",
+    "theme_color": "#000000",
+    "categories": [],
+    "screenshots": [],
+    "icons": [
+        {
+        "src": "/icons/96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+        },
+        {
+        "src": "/icons/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+        },
+        {
+        "src": "/icons/256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+        },
+        {
+        "src": "/icons/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ],
+    "shortcuts": [],
+    "lang": "en"
+}

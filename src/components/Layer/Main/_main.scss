@@ -1,0 +1,21 @@
+@import "../../../styles/theme";
+@import "../../../styles/mixins";
+
+.main{
+    grid-row: 2/3;
+    font-family: "Orchidea";
+    @include adaptiv-value("font-size", 48, 24, 1);
+    display: grid;
+    grid-template: minmax(50px, 95px) auto 10px/ minmax(100px, 1fr) minmax(300px, 1400px) minmax(100px, 1fr);
+    @media (max-width: 767.98px) {
+        grid-template: minmax(35px, 60px) auto 10px/ minmax(50px, 1fr) minmax(300px, 1400px) minmax(50px, 1fr);
+    }
+
+    @media (max-width: 479.98px) {
+        grid-template: 30px auto 10px/ minmax(20px, 1fr) minmax(200px, 1400px) minmax(20px, 1fr);
+    }
+    &__content{
+        grid-row: 2/3;
+        grid-column: 1/4;
+    }
+}

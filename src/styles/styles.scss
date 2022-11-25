@@ -1,0 +1,46 @@
+@import "_nullstyle";
+@import "_theme";
+@import "_fonts";
+@import "_mixins";
+@import "../components/Layer/Header/header";
+@import "../components/Layer/Main/main";
+@import "../components/Layer/Footer/footer";
+@import "../components/Layer/Main/Accordion/accordion";
+@import "../components/Layer/Main/Article/article";
+@import "../components/Layer/Main/Gallery/gallery";
+@import "../components/Modal/modal";
+
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    &.modal-full {
+        overflow-y: hidden;
+        height: 100vh;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template: auto calc(100% - 100px) auto/ 1fr;
+    @media (max-width: 767.98px) {
+        grid-template: auto calc(100% - 260px) auto/ 1fr;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: $gray;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: $gray-dark;
+}
+
+
