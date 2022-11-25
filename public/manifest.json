@@ -10,7 +10,14 @@
     "start_url": "https://jewelry-app-react.herokuapp.com/",
     "theme_color": "#000000",
     "categories": [],
-    "screenshots": [],
+    "screenshots": [
+        {
+            "src": "screenshot.jpg",
+            "sizes": "1280x720",
+            "type": "image/jpg",
+            "platform": "wide"
+        }        
+    ],
     "icons": [
         {
         "src": "/icons/96.png",
@@ -20,7 +27,8 @@
         {
         "src": "/icons/144.png",
         "sizes": "144x144",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any"
         },
         {
         "src": "/icons/256.png",
